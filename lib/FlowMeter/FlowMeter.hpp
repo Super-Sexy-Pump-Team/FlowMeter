@@ -11,7 +11,7 @@ public:
 
 private:
     static void IRAM_ATTR globalISR0(); // Static interrupt handler
-    void IRAM_ATTR pulseISR(); // Instance-specific ISR
+    void IRAM_ATTR pulseISR();          // Instance-specific ISR
     volatile uint32_t pulseCount;
     static volatile uint8_t currentDevice;
     uint8_t flowPin;
