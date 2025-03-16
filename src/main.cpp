@@ -26,5 +26,5 @@ void loop() {
     //Serial.print(flowRate2);
     //Serial.println(" GPM");
 
-    delay(100); // Wait before next measurement
+    delay(500); // Wait before next measurement
 }

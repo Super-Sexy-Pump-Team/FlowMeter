@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-#define FLOW_SENSOR_PIN 17  // Use a safe GPIO pin
+#define FLOW_SENSOR_PIN 42  // Use a safe GPIO pin
 
 volatile int pulseCount = 0;
 
